@@ -1,9 +1,9 @@
 import tkinter as tk
 import random
 
-# -----------------------------
+
 # Environment
-# -----------------------------
+
 class RoomEnvironment:
     def __init__(self, temperature=24):
         self.temperature = temperature
@@ -18,9 +18,9 @@ class RoomEnvironment:
         self.temperature += random.uniform(-0.2, 0.2)
 
 
-# -----------------------------
+
 # Simple Reflex Agent
-# -----------------------------
+
 class ThermostatAgent:
     def __init__(self):
         self.ac_state = "OFF"
@@ -36,9 +36,9 @@ class ThermostatAgent:
         return self.ac_state
 
 
-# -----------------------------
+
 # GUI Application
-# -----------------------------
+
 class ThermostatGUI:
 
     def __init__(self, root):
@@ -150,9 +150,9 @@ class ThermostatGUI:
         self.status_label.config(text="Simulation Stopped")
 
 
-# -----------------------------
+
 # Run Program
-# -----------------------------
+
 root = tk.Tk()
 app = ThermostatGUI(root)
 root.mainloop()

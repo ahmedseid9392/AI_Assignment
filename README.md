@@ -1,5 +1,5 @@
 
-# AI Thermostat Controller (Simple Reflex Agent)
+# Thermostat Controller (Simple Reflex Agent)
 
 ## Project Overview
 
